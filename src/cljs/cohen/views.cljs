@@ -108,7 +108,7 @@
 
 (def images ["cat" "cats" "chameleon" "dog" "ducks" "goat" "ostrich" "pigeon" "pigs" "seagulls" "wasp" "yawn"])
 (defn image-map [img]
-  {:src (str "./images/800-" img ".jpg")
+  {:src (str "./resources/public/images/800-" img ".jpg")
    :width 800
    :height 600
    :aspectRatio 1
