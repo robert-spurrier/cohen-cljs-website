@@ -16,37 +16,37 @@
 (def album-data
   [{:artist "Mr. Carmack"
     :album-name "Bang"
-    :album-art-url "audio/bang/cover.jpg"
+    :album-art-url "resources/public/audio/bang/cover.jpg"
     :songs [{:name "Bang"
-             :url "audio/bang/bang.mp3"}
+             :url "resources/public/audio/bang/bang.mp3"}
             {:name "Fire"
-             :url "audio/bang/fire.mp3"}
+             :url "resources/public/audio/bang/fire.mp3"}
             {:name "Drop"
-             :url "audio/bang/drop.mp3"}]}
+             :url "resources/public/audio/bang/drop.mp3"}]}
    {:artist "Mr. Carmack"
     :album-name "Melodies"
-    :album-art-url "audio/melodies/cover.jpg"
+    :album-art-url "resources/public/audio/melodies/cover.jpg"
     :songs [{:name "At Night"
-             :url "audio/melodies/at_night.mp3"}
+             :url "resources/public/audio/melodies/at_night.mp3"}
             {:name "Paces"
-             :url "audio/melodies/paces.mp3"}
+             :url "resources/public/audio/melodies/paces.mp3"}
             {:name "2084"
-             :url "audio/melodies/2084.mp3"}]}
+             :url "resources/public/audio/melodies/2084.mp3"}]}
    {:artist "Mr. Carmack"
     :album-name "Red"
-    :album-art-url "audio/red/cover.png"
+    :album-art-url "resources/public/audio/red/cover.png"
     :songs [{:name "Sanctify"
-             :url "audio/red/sanctify.mp3"}
+             :url "resources/public/audio/red/sanctify.mp3"}
             {:name "Trophies"
-             :url "audio/red/trophies.mp3"}
+             :url "resources/public/audio/red/trophies.mp3"}
             {:name "Salva"
-             :url "audio/red/salva.mp3"}]}   
+             :url "resources/public/audio/red/salva.mp3"}]}   
    {:artist "Mr. Carmack"
     :album-name "Reality"
-    :album-art-url "audio/reality/cover.jpg"
+    :album-art-url "resources/public/audio/reality/cover.jpg"
     :songs [{:name "Next Afternoon"
-             :url "audio/reality/next_afternoon.mp3"}
+             :url "resources/public/audio/reality/next_afternoon.mp3"}
             {:name "Beez"
-             :url "audio/reality/beez.mp3" }
+             :url "resources/public/audio/reality/beez.mp3" }
             {:name "Great Dane"
-             :url "audio/reality/great_dane.mp3"}]}])
+             :url "resources/public/audio/reality/great_dane.mp3"}]}])
