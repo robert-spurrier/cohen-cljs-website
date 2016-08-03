@@ -52,7 +52,7 @@
                 :child [:p.quote "Beautifully furious...Cohen plays with abandon, pushing musicians. Cadence Magazine"]]
                [re-com/gap :size "60px"]
                [re-com/box
-                :child [:img {:src "images/TomCohen.jpg"}]]
+                :child [:img {:src "resources/public/images/TomCohen.jpg"}]]
                [re-com/gap :size "60px"]
                [re-com/box
                 :width "66.6667%"
@@ -113,11 +113,11 @@
    :height 600
    :aspectRatio 1
    :lightboxImage
-   {:src (str "./images/thumbnail-" img ".jpg")
-    :srcset [(str "./images/1024-" img ".jpg 1024w")
-             (str "./images/800-" img ".jpg 800w")
-             (str "./images/500-" img ".jpg 500w")
-             (str "./images/320-" img ".jpg 320w")]}})
+   {:src (str "./resources/public/images/thumbnail-" img ".jpg")
+    :srcset [(str "./resources/public/images/1024-" img ".jpg 1024w")
+             (str "./resources/public/images/800-" img ".jpg 800w")
+             (str "./resources/public/images/500-" img ".jpg 500w")
+             (str "./resources/public/images/320-" img ".jpg 320w")]}})
 
 (defn gallery-component []
   [Gallery {:photos (clj->js (into [] (map image-map images)))}])
