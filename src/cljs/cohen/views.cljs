@@ -133,8 +133,6 @@
              :padding "50px 50px 50px 50px"
              :child [(gallery-component urls)]]]))
 
-(def ses (js/AWS.SES.))
-
 (defn contact-panel
   []
   (let [email-address (r/atom nil)
